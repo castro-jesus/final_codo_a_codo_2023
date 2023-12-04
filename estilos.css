@@ -10,6 +10,7 @@ p {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -71,8 +72,13 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
+  
 }
-
+div{
+    text-align: center;
+    margin: 10%;
+}
 button:hover {
     background-color: #0056b3;
 }
