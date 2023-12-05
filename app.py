@@ -124,8 +124,8 @@ class Catalogo:
 # Cuerpo del programa
 #--------------------------------------------------------------------
 # Crear una instancia de la clase Catalogo
-catalogo = Catalogo(host='localhost', user='root', password='', database='miapp')
-#catalogo = Catalogo(host='Nahiara.mysql.pythonanywhere-services.com', user='Nahiara', password='petshop123', database='Nahiara$miapp')
+#catalogo = Catalogo(host='localhost', user='root', password='', database='miapp')
+catalogo = Catalogo(host='Nahiara.mysql.pythonanywhere-services.com', user='Nahiara', password='petshop123', database='Nahiara$miapp')
 
 # catalogo.agregar_producto(1, "Televisor 25",11, 340000, "tele.jpg",1)
 # catalogo.agregar_producto(2, "Notebook",11, 740000, "compu.jpg",1)
@@ -133,10 +133,10 @@ catalogo = Catalogo(host='localhost', user='root', password='', database='miapp'
 
 
 # Carpeta para guardar las imagenes.
-RUTA_DESTINO = './static/imagenes/'
+#RUTA_DESTINO = './static/imagenes/'
 
 #Al subir al servidor, deberá utilizarse la siguiente ruta. USUARIO debe ser reemplazado por el nombre de usuario de Pythonanywhere
-#RUTA_DESTINO = '/home/nahiara/mysite/static/imagenes'
+RUTA_DESTINO = '/home/nahiara/mysite/static/imagenes'
 
 
 #--------------------------------------------------------------------
